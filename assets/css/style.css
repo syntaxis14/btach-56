@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: rgba(211, 211, 211, 0.689);
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 72%;
+    padding-right: 10px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: large;
+    /* border: 1px solid red; */
+    display: flex;
+    width: 90px;
+
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+
+nav ul li img {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+nav ul li {
+    justify-content: center;
+}
+
+.btn-social {
+    display: flex;
+    padding-top: 6%;
+    gap: 60px;
+    color: navajowhite;
+}
+
+.btn-social a {
+    color: black;
+    font-size: 30px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: orange;
+    border: 1px solid black;
+    width: 100px;
+    height: 32px;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.contact :hover {
+    color: rgb(223, 216, 202);
+}
+
+.contact li a {
+    text-decoration: none;
+    font-size: large;
+}
+
+/* MAIN PROFILE*/
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid green;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    border: 1px solid black;
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.pict img {
+    border: 1px solid orange;
+    width: 100%;
+
+}
+
+.desc {
+    border: 1px solid purple;
+    height: 33.2%;
+}
+
+/* CONTACT */
+
+.kotak {
+    border: 1px solid black;
+    width: 30%;
+    display: flex;
+    margin: 65px auto;
+    border-radius: 15px;
+}
+
+form {
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+}
+
+input,
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 182, 182);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #ff6138;
+    border-radius: 5px;
+    float: right;
+    padding: 8px 20px;
+    /* border: none; */
+    box-shadow: 1px 1px 3px black;
+}
+
+/* BLOG */
+
+
+
+.blog-list {
+    border: 1px solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.blog-list-item {
+    justify-content: center;
+    border: 1px solid black;
+    width: 70%;
+    height: 25vh;
+    display: flex;
+}
+
+.blog-image {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+
+}
+
+.blog-image img {
+    width: 100%;
+}
+
+.title {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+}
+
+.date-author {
+    /* border: 1px solid red; */
+    height: 10%;
+    margin-top: 5px;
+}
+
+.detail {
+    /* border: 1px solid yellow; */
+    margin-left: 5px;
+    width: 55%;
+    gap: 10px;
+}
+
+.content {
+    /* border: 1px solid purple; */
+    height: 60%;
+    margin-top: 16px;
+}
+
+.button-list {
+    display: flex;
+    /* border: 1px solid chocolate; */
+    width: 15%;
+    height: 27px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.btn {
+    width: 50px;
+    border-radius: 6px;
+    color: black;
+    border: none;
+}
+
+.edit {
+    background-color: rgb(225, 224, 224);
+}
+
+.edit:hover {
+    background-color: lightgray;
+}
+
+.delete {
+    background-color: rgb(246, 181, 181);
+}
+
+.delete:hover {
+    background-color: rgb(241, 118, 118);
+}
+
+/* blog card */
+
+.blog-input-comp {
+    display: flex;
+    justify-content: center;
+}
+
+.blog {
+    border: 1px solid black;
+    display: flex;
+    width: 40%;
+}

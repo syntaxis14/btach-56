@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ini personal web</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <img src="https://www.filepicker.io/api/file/mWcP190oTCqiAo5VjrE8" alt="">
+            </li>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./blog.html">My Project</a>
+            </li>
+        </ul>
+        <div class="contact">
+            <li>
+                <a href="">contact</a>
+            </li>
+        </div>
+    </nav>
+
+    <!-- FORMULIR -->
+
+    <div class="kotak">
+        <form>
+
+            <div>
+                <label for="nameInput">Name</label>
+                <input type="text" id="nameInput" required placeholder="input your name here">
+            </div>
+
+            <div>
+                <label for="emailInput">Email</label>
+                <input type="email" id="emailInput" required placeholder="e.g admin@mail.com">
+            </div>
+
+            <div>
+                <label for="numberInput">Phone</label>
+                <input type="number" id="numberInput" required placeholder="e.g 62xxxxx">
+            </div>
+
+            <div>
+                <label for="positionInput">Position</label>
+                <select id="positionInput" required>
+                    <option hidden value="none">Select Option</option>
+                    <option>FrontEnd Programmer</option>
+                    <option>BackEnd Programmer</option>
+                    <option>FullStack Programmer</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="messageInput">Message</label>
+                <textarea id="messageInput" required placeholder="input your message here"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" onclick="getData(event)">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+<script src="./assets//js/script.js"></script>
+
+</html>
